@@ -19,7 +19,7 @@ Fintness data  downloaded from Garmin Vivoactive 3 Smart Watch via Garmin Connec
 Exert of university project on implementing data mining techniques. 
 The presence of a full moon has been linked to unsavoury behaviour including crimes. For this project I decided to implement a Naive Bayes Classifier on prediciting if it is a full moon based on crime characteristics in Baltimore, USA. A cluster analysis was also performed.     
 
-
+![PAM clustering](https://github.com/georgina-szabo/Data-Science-Portfolio/blob/main/PAM%20clustering.png)
 
 
 ## Ecostays in Tasmania Ecostays Dashboard
