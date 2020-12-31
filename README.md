@@ -11,11 +11,12 @@ Top 10  shows watched on Netflix, total time watched, time of the day most watch
 
 
 ## Analysing Garmin Fitness Tracker Data
-
+A clustering analysis using Python. 
 Fintness data  downloaded from Garmin Vivoactive 3 Smart Watch via Garmin Connect. Data analysed and Clustering analysis performed. 
 
 
 ## Crime Patterns and Full Moons 
+A NBC classifier and clustering analysis using R. 
 Exert of university project on implementing data mining techniques. 
 The presence of a full moon has been linked to unsavoury behaviour including crimes. For this project I decided to implement a Naive Bayes Classifier on prediciting if it is a full moon based on crime characteristics in Baltimore, USA. A cluster analysis was also performed.     
 
@@ -23,7 +24,7 @@ The presence of a full moon has been linked to unsavoury behaviour including cri
 
 
 ## Ecostays in Tasmania Ecostays Dashboard
-
+Tableau Dashboard
 University project on designing a Tableau Dashboard using airbnb data from Tasmania. Focus was placed on 'Ecostays'- low environmental impact accomodations. [You can find the Dashboard on Tableau Public Here](https://public.tableau.com/profile/georgina.szabo#!/vizhome/Airbnbmaps5/Dashboard1)
 
 
