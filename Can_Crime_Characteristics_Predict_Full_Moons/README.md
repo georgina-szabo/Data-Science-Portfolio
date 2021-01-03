@@ -36,11 +36,26 @@ The function set.seed was set to 8 for reproducibility of results.
 Naive_bayes algorithm was used on training data subset to train the model to predict full_moon using predictors day_of_week, Inside.Outside,  Weapon, District and Description. 
 The naive_bayes parameter laplace was set to 1 for prevent zero probabilities (Juan & Ney, 2002). 
 The resulting NBC model was then used to predict full_moon on the testing dataset using the predict function with the parameter type=class.
-Contingency tables to assess the classification results for the testing and data were then created to assess the model
+Contingency tables to assess the classification results for the testing and data were then created to assess the model.
 
 ### PAM Clustering 
 The variables full_moon, Day_of_week, Inside.Outside, Weapon, District, Description, Latitude, and Longitude were selected for a clustering analysis. 
 As the data contains both categorical and continuous variables Gower distance was used to calculate the distance between data points (Akay & Yüksel, 2018). 
+Calculating Gower distance requires continuous data to be normally distributed. The continuous variables latitude and logitude were not normally distrubted and were transformed to normality using orderNorm from the bestNormalize package. 
+
+Density plots of Latitude and Longitdue (clearly not normally distributed) 
+
+![Density plot of Latitude](Can_Crime_Characteristics_Predict_Full_Moons/crime_latitude.png)
+
+![Density plot of Longitude](Can_Crime_Characteristics_Predict_Full_Moons/crime_longitude.png)
+
+Density plots of Latitude and Longitdue after transformation by orderNorm
+
+![Density plot of Latitude after Transformation](Can_Crime_Characteristics_Predict_Full_Moons/norm_crime_latitude.png)
+
+![Density plot of Longitude after Transformation](Can_Crime_Characteristics_Predict_Full_Moons/norm_crime_longitude.png)
+
+
 The daisy function was used to calculate the Gower distances. 
 However, the crime data set was too large to compute Gower distance for every observation so a random subset of the data containing 1000 observations was selected using the sample function using the parameter replace=FALSE. 
 The daisy function was then used to compute a Gower distance matrix from data subset by specifying the parameter metric= “gower”. 
@@ -117,21 +132,39 @@ However, the model is not an appropriate classifier for predicting full moons  a
 ## References 
 
 Akay, Ö., & Yüksel, G. (2018). Clustering the mixed panel dataset using Gower’s distance and k-prototypes algorithms. Communications in Statistics - Simulation and Computation, 47(10), 3031–3041. https://doi.org/10.1080/03610918.2017.1367806
+
+
 Baltimore Police Department. (2020). BPD Part 1 Victim Based Crime Data. https://data.baltimorecity.gov/Public-Safety/BPD-Part-1-Victim-Based-Crime-Data/wsfq-mvij/data
+
 Batool, F. (2020). Initialization methods for optimum average silhouette width clustering. ArXiv:1910.08644 [Cs, Stat]. http://arxiv.org/abs/1910.08644
+
 Brantingham, P. J., & Brantingham, P. L. (1984). Patterns in crime. Macmillan ; Collier Macmillan; /z-wcorg/.
+
 Canter, D., & Youngs, D. (2016). Crime and society. Contemporary Social Science, 11(4), 283–288. https://doi.org/10.1080/21582041.2016.1259495
+
 Chemkaeva, D. (2020, March 28). Full Moon Calendar 1900-2050. Kaggle. https://kaggle.com/lsind18/full-moon-calendar-1900-2050
+
 Cooper, M. (2020, November 3). Week 2; Collaborate Session 1: Naive Bayes [Tutorial Notes]. https://github.com/MarthaCooper/MA5810/blob/main/2_Naive_Bayes.pdf
+
 Daigle, L. (2017). Victimology: The Essentials (second edition). Sage.
+
 Jarecki, J. B., Meder, B., & Nelson, J. D. (2018). Naïve and Robust: Class-Conditional Independence in Human Classification Learning. Cognitive Science, 42(1), 4–42. https://doi.org/10.1111/cogs.12496
+
 Juan, A., & Ney, H. (2002). Reversing and Smoothing the Multinomial Naive Bayes Text Classifer. 200–212.
+
 Langton, L., Berzofsky, M., Krebs, C., & Smiley-McDonald, H. (2012). Victimizations Not Reported to the Police, 2006-2010 (p. 18). U.S. Department of Justice.
-Lengyel, A., & Botta‐Dukát, Z. (2019). Silhouette width using generalized mean—A flexible method for assessing clustering efficiency. Ecology and Evolution, 9(23), 13231–13243. https://doi.org/10.1002/ece3.5774
+
+Lengyel, A., & Botta‐Dukát, Z. (2019). Silhouette width using generalized mean—A flexible method for assessing clustering efficiency. Ecology and Evolution, 9(23), 13231–13243. 
+https://doi.org/10.1002/ece3.5774
+
 Qazi, H. A. R., Philip, J., Manikandan, R., & Cornford, P. A. (2007). ‘The Transylvania Effect’ – Does the Lunar Cycle Affect Emergency Urological Admissions? Current Urology, 1(2), 100–102. https://doi.org/10.1159/000106544
+
 RStudio Team. (2019). RStudio: Integrated Development for R. (1.2.5019) [Computer software]. RStudio, Inc.
+
 Shendre, S. (2020, May 11). Clustering datasets having both numerical and categorical variables. Towards Data Science. https://towardsdatascience.com/clustering-datasets-having-both-numerical-and-categorical-variables-ed91cdca0677
+
 Stolzenberg, L., D’Alessio, S. J., & Flexon, J. L. (2017). A Hunter’s Moon: The Effect of Moon Illumination on Outdoor Crime. American Journal of Criminal Justice, 42(1), 188–197. https://doi.org/10.1007/s12103-016-9351-9
+
 Trevethan, R. (2017). Sensitivity, Specificity, and Predictive Values: Foundations, Pliabilities, and Pitfalls in Research and Practice. Frontiers in Public Health, 5. https://doi.org/10.3389/fpubh.2017.00307
 
 R code for the project is available here
