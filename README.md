@@ -15,6 +15,7 @@ Full project details and code available in the project links.
 *  The NBC was not successful as although it had a specificity of 1 it had a sensitivity of 0.  
 * PAM clustering results can be seen in the visualisation below: 
 ![PAM clustering](https://github.com/georgina-szabo/Data-Science-Portfolio/blob/main/PAM%20clustering.png)
+![PAM clustering using FVIZ](https://github.com/georgina-szabo/Data-Science-Portfolio/Can_Crime_Characteristics_Predict_Full_Moons/PAM_clustering_fviz.png)
 
 
 ## Ecostays in Tasmania Ecostays Dashboard
