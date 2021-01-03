@@ -128,6 +128,7 @@ However, the model is not an appropriate classifier for predicting full moons  a
  Analysis of crime data from other locations, such as Australia could also provide a more local analysis and provide more relevant insights. 
  Another potential direction is using different clustering algorithm which may provide more insightful and meaningful results.   
 
+[R code for the project is available here](Can_Crime_Characteristics_Predict_Full_Moons/crime_data_project.R)
 
 ## References 
 
@@ -167,6 +168,3 @@ Stolzenberg, L., D’Alessio, S. J., & Flexon, J. L. (2017). A Hunter’s Moon: 
 
 Trevethan, R. (2017). Sensitivity, Specificity, and Predictive Values: Foundations, Pliabilities, and Pitfalls in Research and Practice. Frontiers in Public Health, 5. https://doi.org/10.3389/fpubh.2017.00307
 
-R code for the project is available here
-
-Link to code 
