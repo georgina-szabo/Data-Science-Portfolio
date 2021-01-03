@@ -19,9 +19,10 @@ Full project details and code available in the project links.
 ![PAM clustering using FVIZ](https://github.com/georgina-szabo/Data-Science-Portfolio/Can_Crime_Characteristics_Predict_Full_Moons/PAM_clustering_fviz.png)
 
 
-## Ecostays in Tasmania Ecostays Dashboard
+## [Ecostays in Tasmania Ecostays Dashboard](https://public.tableau.com/profile/georgina.szabo#!/vizhome/Airbnbmaps5/Dashboard1)
+
 Tableau Dashboard
-University project on designing a Tableau Dashboard using airbnb data from Tasmania. Focus was placed on 'Ecostays'- low environmental impact accomodations. [You can find the Dashboard on Tableau Public Here](https://public.tableau.com/profile/georgina.szabo#!/vizhome/Airbnbmaps5/Dashboard1)
+University project on designing a Tableau Dashboard using airbnb data from Tasmania. Focus was placed on 'Ecostays'- low environmental impact accomodations. [Check out the interactive Dashboard on Tableau Public Here](https://public.tableau.com/profile/georgina.szabo#!/vizhome/Airbnbmaps5/Dashboard1)
 
 
 <div class='tableauPlaceholder' id='viz1609391574436' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ai&#47;Airbnbmaps5&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Airbnbmaps5&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ai&#47;Airbnbmaps5&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-GB' /></object></div>         
