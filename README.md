@@ -1,11 +1,13 @@
 # Georgina Szabo Data Science Portfolio
 
-*A collection of university and personal data science projects using Python and R.*
+A collection of university and personal data science projects using Python and R.
+
 Full project details and code available in the project links.  
 [Find me on Linkedin](www.linkedin.com/in/georgina-szabo)
 
 
-## Can Crime Characterics Predict Full Moons?
+[## Can Crime Characterics Predict Full Moons?](https://github.com/georgina-szabo/Data-Science-Portfolio/Can_Crime_Characteristics_Predict_Full_Moons/README.md)
+
 * Exert of university project on implementing data mining techniques using R.  
 * The presence of a full moon has been linked to unsavoury behaviour including crimes. For this project I decided to implement a Naive Bayes Classifier (NBC) on prediciting if it is a full moon based on crime characteristics.
 * The data used was victim based crime records obtained from the Baltimore Police Department database which was joined to a full moon calendar.   
