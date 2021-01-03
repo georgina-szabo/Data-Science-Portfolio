@@ -6,7 +6,7 @@ Full project details and code available in the project links.
 [Find me on Linkedin](www.linkedin.com/in/georgina-szabo)
 
 
-## [Can Crime Characterics Predict Full Moons?](https://github.com/georgina-szabo/Data-Science-Portfolio/Can_Crime_Characteristics_Predict_Full_Moons/README.md)
+## [Can Crime Characterics Predict Full Moons?](https://github.com/georgina-szabo/Data-Science-Portfolio/tree/main/Can_Crime_Characteristics_Predict_Full_Moons)
 
 * Exert of university project on implementing data mining techniques using R.  
 * The presence of a full moon has been linked to unsavoury behaviour including crimes. For this project I decided to implement a Naive Bayes Classifier (NBC) on prediciting if it is a full moon based on crime characteristics.
