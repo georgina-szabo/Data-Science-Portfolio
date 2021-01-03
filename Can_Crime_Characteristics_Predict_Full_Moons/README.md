@@ -3,9 +3,7 @@
 ## Introduction
 Crime is a complex phenomenon which influences most aspects of everyday life (Canter & Youngs, 2016).
 Victim based crimes encompass crime perpetrated against a person and include, but are not limited to, robbery, aggravated assault , homicide and rape (Daigle, 2017). 
-According to Crime Pattern Theory, crime does not occur randomly but can be predicted and therefore can be modelled  (Brantingham & Brantingham, 1984). 
-The Lunar Effect (also known as The Transylvania Effect) is a  theory used to explain patterns in human behaviour that occur when the moon is full (Stolzenberg et al., 2017).  
-There is evidence within this field to support an association between the incidence of a  full moon and aggression, number of crimes and unintentional poisoning (Qazi et al., 2007). 
+According to Crime Pattern Theory, crime does not occur randomly but can be predicted and therefore can be modelled  (Brantingham & Brantingham, 1984). The Lunar Effect (also known as The Transylvania Effect) is a  theory used to explain patterns in human behaviour that occur when the moon is full (Stolzenberg et al., 2017).There is evidence within this field to support an association between the incidence of a  full moon and aggression, number of crimes and unintentional poisoning (Qazi et al., 2007). 
 
 ### Aims
 The primary aim of this project is to build a machine learning model that can predict if it is a full moon based on the characteristics of reported crimes. 
@@ -75,6 +73,9 @@ The model specificity of 1 is most likely reflective of the low probability of a
 
 ### PAM Clustering
 Silhouette width (SW) was plotted against the number of clusters using the PAM algorithm as seen in the figure below. 
+
+[SWC for PAM clustering solution](Data-Science-Portfolio/Can_Crime_Characteristics_Predict_Full_Moons/SWC crime.png)
+
 The highest SW value was achieved when the number of clusters was 2.
 As higher Silhouette width values produce better clustering solutions 2 clusters were chosen for this model (Lengyel & Botta‐Dukát, 2019)
 SW values can also be used to evaluate the quality clustering solutions. 
@@ -84,13 +85,13 @@ These are low SW values that are not close to 1  which suggests that this PAM mo
 
 
 The figure below shows a visualisation of the 2-cluster solution  produced from the PAM algorithm. There are 2 clusters visible, however they are not tight clusters and some overlap is present across clusters.
+[PAM clustering image](Data-Science-Portfolio/Can_Crime_Characteristics_Predict_Full_Moons/PAM clustering.png)
 
-PAM cluster 1 image
 
 An alternate visualisation of the clustering solution is shown below, which was produced by fviz_plot. In this visualisation considerable overlap is shown between clusters 1 and 2, the boundary of cluster 2 nearly completely overlaps cluster 1. 
 The data points are also not evenly spread through the clusters. 
 
-PAM fviz cluster
+[PAM clustering image using fviz_plot](Data-Science-Portfolio/Can_Crime_Characteristics_Predict_Full_Moons/PAM clustering fviz.png)
 
 The secondary aim of this investigation included finding patterns in the crime data using clustering. A 2-cluster model was developed from the crime data however, the model was not a good fit for the data as it had very low SW values and considerable overlap in the visualisations.
 
