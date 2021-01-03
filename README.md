@@ -13,7 +13,8 @@ Full project details and code available in the project links.
 * The data used was victim based crime records obtained from the Baltimore Police Department database which was joined to a full moon calendar.   
 * A cluster analysis on crime characteristics was also performed using PAM clustering.     
 *  The NBC was not successful as although it had a specificity of 1 it had a sensitivity of 0.  
-* PAM clustering results can be seen in the visualisation below: 
+* PAM clustering results can be seen below:
+
 ![PAM clustering](https://github.com/georgina-szabo/Data-Science-Portfolio/blob/main/PAM%20clustering.png)
 ![PAM clustering using FVIZ](https://github.com/georgina-szabo/Data-Science-Portfolio/Can_Crime_Characteristics_Predict_Full_Moons/PAM_clustering_fviz.png)
 
