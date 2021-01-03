@@ -74,7 +74,7 @@ The model specificity of 1 is most likely reflective of the low probability of a
 ### PAM Clustering
 Silhouette width (SW) was plotted against the number of clusters using the PAM algorithm as seen in the figure below. 
 
-![SWC for PAM clustering solution](https://github.com/georgina-szabo/Data-Science-Portfolio/Can_Crime_Characteristics_Predict_Full_Moons/SWC_crime.png)
+![SWC for PAM clustering solution](Can_Crime_Characteristics_Predict_Full_Moons/PAM_clustering.png)
 
 The highest SW value was achieved when the number of clusters was 2.
 As higher Silhouette width values produce better clustering solutions 2 clusters were chosen for this model (Lengyel & Botta‐Dukát, 2019)
