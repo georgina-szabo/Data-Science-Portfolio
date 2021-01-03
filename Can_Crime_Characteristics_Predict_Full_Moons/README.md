@@ -74,7 +74,7 @@ The model specificity of 1 is most likely reflective of the low probability of a
 ### PAM Clustering
 Silhouette width (SW) was plotted against the number of clusters using the PAM algorithm as seen in the figure below. 
 
-[SWC for PAM clustering solution](Data-Science-Portfolio/Can_Crime_Characteristics_Predict_Full_Moons/SWC crime.png)
+[SWC for PAM clustering solution](https://github.com/georgina-szabo/Data-Science-Portfolio/Can_Crime_Characteristics_Predict_Full_Moons/SWC crime.png)
 
 The highest SW value was achieved when the number of clusters was 2.
 As higher Silhouette width values produce better clustering solutions 2 clusters were chosen for this model (Lengyel & Botta‐Dukát, 2019)
@@ -85,13 +85,13 @@ These are low SW values that are not close to 1  which suggests that this PAM mo
 
 
 The figure below shows a visualisation of the 2-cluster solution  produced from the PAM algorithm. There are 2 clusters visible, however they are not tight clusters and some overlap is present across clusters.
-[PAM clustering image](Data-Science-Portfolio/Can_Crime_Characteristics_Predict_Full_Moons/PAM clustering.png)
+[PAM clustering image](https://github.com/georgina-szabo/Data-Science-Portfolio/Can_Crime_Characteristics_Predict_Full_Moons/PAM clustering.png)
 
 
 An alternate visualisation of the clustering solution is shown below, which was produced by fviz_plot. In this visualisation considerable overlap is shown between clusters 1 and 2, the boundary of cluster 2 nearly completely overlaps cluster 1. 
 The data points are also not evenly spread through the clusters. 
 
-[PAM clustering image using fviz_plot](Data-Science-Portfolio/Can_Crime_Characteristics_Predict_Full_Moons/PAM clustering fviz.png)
+[PAM clustering image using fviz_plot](https://github.com/georgina-szabo/Data-Science-Portfolio/Can_Crime_Characteristics_Predict_Full_Moons/PAM clustering fviz.png)
 
 The secondary aim of this investigation included finding patterns in the crime data using clustering. A 2-cluster model was developed from the crime data however, the model was not a good fit for the data as it had very low SW values and considerable overlap in the visualisations.
 
