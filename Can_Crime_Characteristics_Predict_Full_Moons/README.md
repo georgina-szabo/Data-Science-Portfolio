@@ -91,7 +91,7 @@ The figure below shows a visualisation of the 2-cluster solution  produced from 
 An alternate visualisation of the clustering solution is shown below, which was produced by fviz_plot. In this visualisation considerable overlap is shown between clusters 1 and 2, the boundary of cluster 2 nearly completely overlaps cluster 1. 
 The data points are also not evenly spread through the clusters. 
 
-[PAM clustering image using fviz_plot](https://github.com/georgina-szabo/Data-Science-Portfolio/Can_Crime_Characteristics_Predict_Full_Moons/PAM_clustering_fviz.png)
+(https://github.com/georgina-szabo/Data-Science-Portfolio/Can_Crime_Characteristics_Predict_Full_Moons/PAM_clustering_fviz.png)
 
 The secondary aim of this investigation included finding patterns in the crime data using clustering. A 2-cluster model was developed from the crime data however, the model was not a good fit for the data as it had very low SW values and considerable overlap in the visualisations.
 
